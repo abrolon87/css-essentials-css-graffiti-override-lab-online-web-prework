@@ -6,13 +6,18 @@
   display: none;
   }/* write your override styles here */
 
-div#wall #tag-3.slick {
+div#wall #tag-3.slick.wicked {
   display: none;
 }
 
-#wall #tag-4 {
+#wall .parent #tag-4 {
   display: none;
 }
+
+div#wall div.parent #tag-5.slick {
+  display: none;
+}
+
 div#tag-6 {
   display: none;
 }
